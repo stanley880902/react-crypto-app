@@ -4,6 +4,7 @@ import debounce from '../helper/debounce';
 
 const showStore = create((set) => ({
     graphData: [],
+    data: null,
 
     fetchData: async (id) => {
         const [graphRes, dataRes] = await Promise.all([
@@ -20,8 +21,13 @@ const showStore = create((set) => ({
                 Price: p
               };
         });
+        
+        set({ 
+            graphData,
+            data: dataRes.data,
+        });
         console.log(dataRes);
-        set({ graphData });
+       
     },
 }));
 
