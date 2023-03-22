@@ -6,6 +6,7 @@
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#2E3440;
 }
 
 input[type="text"]{
@@ -37,8 +38,8 @@ img {
 }
 
 .header {
-    background: #111;
-    color: white;
+    background: #ECEFF4;
+    color: #2E3440;
     padding: 20px 0;
     position: sticky;
     top: 0;
@@ -50,14 +51,14 @@ img {
 
     h1 {
         text-align: center;
-        color: white;
+        color: #2E3440;
         text-transform: uppercase;
         font-size: 33px;
         letter-spacing: 2px;
     }
     
     a {
-        color: white;
+        color: #2E3440;
     }
 
     svg {
@@ -77,10 +78,11 @@ img {
     h2 {
         font-size: 32px;
         margin-bottom: 20px;
+        color: #ECEFF4;
     }
 
     input {
-        border: 1px solid #ddd;
+        border: 1px solid #88C0D0;
         padding: 0 24px;
         border-radius: 8px;
         line-height: 54px;
@@ -109,7 +111,7 @@ img {
     }
 
     &.searching svg {
-        opacity: 1;
+        opacity: 11;
     }
 }
 
@@ -121,11 +123,12 @@ img {
         margin-bottom: 20px;
         text-align: center;
         margin-bottom: 20px;
+        color: #ECEFF4;
     }
 }
 
 .home-cryptos-list {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #88C0D0;
 }
 
 .home-crypto {
@@ -133,7 +136,7 @@ img {
         display: flex;
         align-items: center;
         padding: 20px 0;
-        border-bottom: 1px solid #ddd;
+        border-bottom: 1px solid #88C0D0;
         gap: 30px;
     }
 
@@ -149,12 +152,12 @@ img {
 .home-crypto-name {
     flex: 1;
     font-size: 20px;
-    color: #111;
+    color: #ECEFF4;
     font-weight: 600;
 }
 
 .home-crypto-btc {
-    color: #111;
+    color: #ECEFF4;
     font-size: 16px;
     font-weight: 600;
 
@@ -184,12 +187,14 @@ img {
     h2 {
         font-size: 32px;
         margin-top: 10px;
+        color:#ECEFF4;
     }
 }
 
 .show-graph {
     height: 200px;
     width: 100%;
+    color: #ECEFF4;
 }
 
 .show-details {
@@ -200,6 +205,7 @@ img {
         font-size: 26px;
         margin-bottom: 20px;
         text-align: center;
+        color: #ECEFF4;
     }
 }
 
@@ -208,12 +214,12 @@ img {
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
-    border-bottom: 1px solid #ddd;
-    color: #666;
+    border-bottom: 1px solid #88C0D0;
+    color: #ECEFF4;
 
     h3 {
         font-size: 18px;
-        color: #111;
+        color: #ECEFF4;
     }
 }
 
